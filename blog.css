@@ -1,0 +1,97 @@
+body {
+  background-color: hsl(47, 88%, 63%);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 1rem;
+  font-family: figtree;
+
+}
+
+.card-background {
+  width: 350px;
+  border: 1.1px solid black;
+  background-color: hsl(0, 0%, 100%);
+  box-shadow: 8px 8px 0px rgb(33, 33, 33);
+  border-radius: 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.image {
+  height: 180px;
+  width: 310px;
+  object-fit: cover;
+  border-radius: 10px;
+  margin-top: 20px;
+ margin-bottom: 8px;
+}
+
+.learning, .date, .title, .about, .author, .author-profile, .image {
+  font-family: figtree;
+  margin-left: 20px;
+
+}
+
+
+.learning {
+  background-color: hsl(47, 88%, 63%);
+  color: black;
+  padding: 4px 10px;
+  display: inline-block;
+  font-weight: 700;
+  font-size: 14px;
+  border-radius: 4px;
+  margin-top: 8px;
+  margin-bottom: 4px;
+
+}
+
+.date {
+  font-size: .8rem;
+  font-weight: 600;
+  margin-top: 8px;
+  margin-bottom: 8px;
+
+}
+
+.title {
+  font-size: 1.4rem;
+  margin-top: 10px;
+  margin-bottom: 4px;
+  cursor: pointer;
+
+}
+
+.title:hover {
+  color: hsl(47, 88%, 63%);
+}
+
+.about {
+  font-size: .95rem;
+  width: 300px;
+  color: rgba(0, 0, 0, .5);
+  margin-bottom: 20px;
+  line-height: 1.3rem;
+
+}
+
+
+.author-profile {
+  margin-top: 8px;
+  margin-bottom: 18px;
+}
+
+.profile-pic {
+  height: 30px;
+  width: 30px;
+  vertical-align: middle;
+}
+
+.author {
+  display: inline;
+  vertical-align: middle;
+  margin-left: 8px;
+  font-size: 13px;
+}
